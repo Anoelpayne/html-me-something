@@ -1,30 +1,76 @@
 body {
     background-color: antiquewhite;
     font-family: roboto,sans-serif;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
+    font-size: 24px;
     letter-spacing: .02em;
     line-height: 28px;
     text-transform: none;
     color: #000000;
     text-align: center;
-    padding-top: 25px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
 }
 
-#h1 {
-    /* background-color: cornflowerblue; */
-    font-size: 60px; 
-    color: rgb(18, 124, 66); 
-    font-family: Arial, Helvetica, sans-serif; 
-    padding-bottom: 50px;
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+.caption-text {
+    padding-bottom: 25px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+}
+
+ul {
+    display: block;
+}
+
+#left-align {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+h1 {
+    padding: 120px;
+    padding-right: none;
+    padding-left: none;
+    text-align: center;
+    background: #1abc9c;
+    color: rgb(87, 70, 35);
+    font-size: 60px;
 }
 
 
-.padding {
+#padding {
     border: 1px solid black;
     background-color: lightblue;
     padding-top: 50px;
